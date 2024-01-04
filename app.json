@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "SakayDuma",
+    "slug": "SakayDuma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB24deUErrqDKtitj7OWLqNykmkhMpN9XU"
+        }
+      },
+      "package": "com.xspens0xenpai.SakayDuma"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17241236-d4af-4f1c-bb10-659d703db54a"
+      }
+    }
+  }
+}
